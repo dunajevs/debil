@@ -1,0 +1,1 @@
+!function(){"use strict";$((function(){const e=1e3,t=6e4,n=36e5,o=864e5;let l=new Date("Jul 16, 2020 12:00:00").getTime(),a=setInterval((function(){let e=(new Date).getTime(),t=l-e;$("#days").html(Math.floor(t/o)),$("#hours").html(Math.floor(t%o/36e5)),$("#minutes").html(Math.floor(t%36e5/6e4)),$("#seconds").html(Math.floor(t%6e4/1e3))}),1e3);$(".container").fadeIn()}))}();
